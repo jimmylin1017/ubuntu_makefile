@@ -16,6 +16,8 @@ info:
 	@echo '#################################'
 
 install:
+	sudo apt -y update
+	sudo apt -y upgrade
 	sudo apt-get -y install git
 	sudo apt-get -y install g++
 	sudo apt-get -y install rar
